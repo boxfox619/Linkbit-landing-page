@@ -32,13 +32,9 @@ export const en = {
     story_title: 'Cryptocurrency Transfer Innovation Solution',
     story_sub_title: 'Complex and difficult cryptocurrency, Linkbit innovates',
     story_content_title_1: 'Innovate complex and difficult addresses',
-    story_content_1: `Complex, hard-to-remember addresses are a big factor in making cryptocurrency harder
-    Linkbit solves this by mapping the wallet address to the desired address
-    You can register and use your desired wallet address as if you were buying a domain`,
+    story_content_1: `Complex, hard-to-remember addresses are a big factor in making cryptocurrency harder. Linkbit solves this by mapping the wallet address to the desired address.You can register and use your desired wallet address as if you were buying a domain`,
     story_content_title_2: 'Manage multiple cryptocurrency',
-    story_content_2: `There are hundreds, thousands of kinds of coins.
-    You can manage as many as one Linkbit without having to manage many coins separately`,
+    story_content_2: `There are hundreds, thousands of kinds of coins. You can manage as many as one Linkbit without having to manage many coins separately`,
     story_content_title_3: 'Innovate the compatibility of numerous coins',
-    story_content_3: `Cryptocurrency should use different types depending on the purpose and use
-    Linkbit improves the compatibility of different coins by cross-transfer and innovates co-operative ways of exchanging`,
+    story_content_3: `Cryptocurrency should use different types depending on the purpose and use. Linkbit improves the compatibility of different coins by cross-transfer and innovates co-operative ways of exchanging`,
 }
