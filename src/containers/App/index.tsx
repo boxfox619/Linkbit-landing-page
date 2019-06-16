@@ -15,7 +15,7 @@ const App: React.FC = () => {
       <AppContainer>
         <Router>
           <div style={{ flex: 1, marginTop: '60px' }}>
-            <Route path={`/`} component={HomeContainer} />
+            <Route path={`/*`} component={HomeContainer} />
           </div>
         </Router>
       </AppContainer>

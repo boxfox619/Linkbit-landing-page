@@ -1,5 +1,3 @@
-## U-TRUST-Frontend
+## Linkbit-Landing-Page
 
-run with npm run start
-
-https://u-trust.github.io/Frontend
+https://linkbit.co.kr

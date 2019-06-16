@@ -123,7 +123,7 @@ export const DownloadButton = styled.button`
     border: none;
     outline: none;
     padding: 10px;
-    margin: 5px;
+    margin: 5px 15px;
     cursor: pointer;
     border-radius: 2px;
     font-size: 1em;
@@ -133,5 +133,28 @@ export const DownloadButton = styled.button`
     }
     &:hover { 
         background-color: #F1F1F2;
+    }
+`
+export const FooterSection = styled(Section)`
+    flex-flow: row;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: flex-start;
+    & * {
+        color: #E9EBEE;
+    }
+    & ${Title} {
+        font-size: 1.5em;
+        color: white;
+    }
+    & > * {
+        margin: 0 20px;
+    }
+    @media(max-width: 980px) {
+        flex-flow: column;
+        & > * {
+            margin-bottom: 30px;
+        }
     }
 `
