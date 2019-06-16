@@ -9,12 +9,11 @@ export const Container = styled.div`
 `
 export const MainImg = styled.img`
     width: 20%;
-    margin-bottom: -17%;
     z-index: -1;
     min-width: 300px;
+    max-width: 400px;
     @media (max-width: 980px) {
         width: 50%;
-        margin-bottom: -33%;
         min-width: 0px;
     }
 `
