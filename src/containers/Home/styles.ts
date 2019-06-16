@@ -23,7 +23,7 @@ export const LogoImage = styled.img`
 `
 export const Section = styled.section`
     display: flex;
-    padding: 30px 0 ;
+    padding: 30px 0;
     flex-flow: column;
     align-items: center;
     justify-content: center;
@@ -82,7 +82,7 @@ export const StoryContent = styled(Title)`
         font-size: 1em;
     }
     @media(max-width: 680px) {
-        font-size: 0.8em;
+        font-size: 0.6em;
     }
 `
 export const SubTitle = styled.div`
@@ -101,7 +101,6 @@ export const StoryGroup = styled.div`
             height: 250px;
         }
         @media(max-width: 980px) {
-            height: auto;
             margin-right: 0;
             margin-bottom: 8px;
         }
