@@ -91,8 +91,8 @@ const Home: React.FC<Props> = inject('localeStore')(observer(({localeStore}) => 
                 </div>
                 <div>
                     <Title>CONTACT US</Title>
-                    <a href="https://www.facebook.com/linkbitkorea">https://www.facebook.com/linkbitkorea</a><br/>
-                    <a href="https://twitter.com/Linkbit1">https://twitter.com/Linkbit1</a>
+                    <a target="_blank" href="https://www.facebook.com/linkbitkorea">https://www.facebook.com/linkbitkorea</a><br/>
+                    <a target="_blank" href="https://twitter.com/Linkbit1">https://twitter.com/Linkbit1</a>
                 </div>
             </FooterSection>
         </Container>
