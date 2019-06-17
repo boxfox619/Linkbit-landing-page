@@ -10,7 +10,7 @@ interface Props {
     localeStore?: LocaleStore
 }
 
-const Home: React.FC<Props> = inject('localeStore')(observer(({localeStore}) => {
+const Home: React.FC<Props> = inject('localeStore')(observer(({ localeStore }) => {
     const i18n = (localeStore as LocaleStore).i18n
     return (
         <Container>
@@ -70,7 +70,7 @@ const Home: React.FC<Props> = inject('localeStore')(observer(({localeStore}) => 
                     </StoryGroup>
                 </StorySection>
             </Section>
-            <Section style={{ backgroundColor: PRIMARY_COLOR, padding: '100px 0'}}>
+            <Section style={{ backgroundColor: PRIMARY_COLOR, padding: '100px 0' }}>
                 <Title style={{ color: 'white' }}>Download LINKBIT</Title>
                 <div style={{ display: 'flex' }}>
                     <DownloadButton>
@@ -84,15 +84,15 @@ const Home: React.FC<Props> = inject('localeStore')(observer(({localeStore}) => 
                 </div>
             </Section>
             <FooterSection>
-                <div style={{flex: 1}}>
+                <div style={{ flex: 1 }}>
                     <Title>LINKBIT</Title>
                     © 2019 Linkbit Organization.
                     All rights reserved.
                 </div>
                 <div>
                     <Title>CONTACT US</Title>
-                    <a target="_blank" href="https://www.facebook.com/linkbitkorea" rel="noopener">https://www.facebook.com/linkbitkorea</a><br/>
-                    <a target="_blank" href="https://twitter.com/Linkbit1" rel="noopener">https://twitter.com/Linkbit1</a>
+                    <a target="_blank" href="https://www.facebook.com/linkbitkorea" rel="noopener noreferrer">https://www.facebook.com/linkbitkorea</a><br />
+                    <a target="_blank" href="https://twitter.com/Linkbit1" rel="noopener noreferrer">https://twitter.com/Linkbit1</a>
                 </div>
             </FooterSection>
         </Container>
