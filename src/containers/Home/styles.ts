@@ -115,7 +115,8 @@ export const StoryTextGroup = styled.div`
     justify-content: center;
     flex: 1;
 `
-export const DownloadButton = styled.button`
+export const DownloadButton = styled.a`
+text-decoration: none;
     display: flex;
     align-items: center;
     background-color: white;

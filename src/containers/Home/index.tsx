@@ -77,7 +77,7 @@ const Home: React.FC<Props> = inject('localeStore')(observer(({ localeStore }) =
                         <img src={appleIcon} alt="app store" />
                         APP STORE
                     </DownloadButton>
-                    <DownloadButton>
+                    <DownloadButton target="_blank" href="https://play.google.com/store/apps/details?id=com.linkbit.LinkbitApplication" rel="noopener noreferrer">
                         <img src={playstoreIcon} alt="play store" />
                         PLAY STORE
                     </DownloadButton>
